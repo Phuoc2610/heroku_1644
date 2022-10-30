@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background: gray;
+}
+.header_content{
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.header_left{
+    font-size: 30px;
+    font-weight: 700;
+}
+.header_left a:hover{
+    color: #ff6600;
+    transition: all 0.5s ease;
+}
+.header_right{
+    display: flex;
+}
+.header_right li{
+    margin: 0 15px;
+    padding: 5px 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+.header_right li:hover{
+    color: #ff6600;
+    transition: all 0.5s ease;
+}
+h2{
+    text-align: center;
+    font-size: 35px !important;
+    font-weight: 700;
+    color: #ff6600;
+}
